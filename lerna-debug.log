@@ -1,0 +1,12 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'pixijs'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/zhanglei/code/view-editor
+3 info versioning independent
+4 error Error: 404 Not Found - GET http://npm.geekplus.cc/repository/npm-group/pixijs - Not found
+4 error     at /Users/zhanglei/.nvm/versions/node/v14.16.0/lib/node_modules/lerna/node_modules/npm-registry-fetch/check-response.js:123:15
