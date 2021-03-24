@@ -1,8 +1,8 @@
 {
   "name": "@ceditor/react-demo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
-    "@ceditor/demo": "^0.0.1",
+    "@ceditor/demo": "^0.0.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -38,7 +38,6 @@
   "main": "index.js",
   "license": "MIT",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "devDependencies": {},
   "keywords": [],
   "author": ""
 }

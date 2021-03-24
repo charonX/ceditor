@@ -1,6 +1,6 @@
 {
   "name": "@ceditor/vite-demo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +10,6 @@
     "vite": "^2.1.0"
   },
   "dependencies": {
-    "@ceditor/demo": "^0.0.1"
+    "@ceditor/demo": "^0.0.2"
   }
 }
