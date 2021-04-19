@@ -2,6 +2,16 @@
   "name": "ceditor",
   "private": true,
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^6.0.0",
     "lerna": "^4.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
   }
 }
