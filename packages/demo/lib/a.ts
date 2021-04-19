@@ -7,6 +7,7 @@
 function demo(a,b) {
     // TODO
     console.log("这是个demo")
+    console.log('test')
 }
 
 
