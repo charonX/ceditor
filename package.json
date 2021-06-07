@@ -6,20 +6,18 @@
     "@commitlint/config-lerna-scopes": "^12.1.4",
     "conventional-changelog-cli": "^2.1.1",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^6.0.0",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "husky": "^6.0.0"
   },
   "scripts": {
     "commit": "cz",
     "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
-      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
-      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
-      "post-applypatch": "echo \"[Husky] post-applypatch\"",
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+      "commit-msg": "npx commitlint -e $HUSKY_GIT_PARAMS"
     }
   },
   "config": {
