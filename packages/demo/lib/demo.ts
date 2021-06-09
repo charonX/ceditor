@@ -3,7 +3,7 @@ interface p {
 }
 function demo(a:p) {
     // TODO
-    console.log("这是个demo",a)
+    console.log("这是个demo1",a)
 }
 
 
